@@ -1,0 +1,54 @@
+*  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+}
+h1 {
+	margin-top: 3rem;
+}
+.completed {
+	text-decoration: line-through;
+}
+
+label {
+	display: block
+}
+
+.list-item {
+	margin: 15px 0;
+}
+
+#submitButton {
+	display: block;
+	margin: 30px auto;
+	width: 250px;
+}
+
+.btn {
+	width: 120px;
+	height: 20px;
+	color: #fff;
+	outline: none;
+	border: none;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+#delete{
+	background-color: red;
+	
+}
+
+#complete {
+	background-color: green;
+}
+
+
+#deleteAll {
+	background-color: yellow;
+	color: black;
+	margin-top: 15px;
+}
